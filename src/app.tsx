@@ -17,7 +17,11 @@ const OPTIONS: Option[] = [
   {
     id: 2,
     title: "Opción 2",
+<<<<<<< HEAD
     description: "Ramas y merges",
+=======
+    description: "Ramas de Git",
+>>>>>>> origin/dev
     message:
       "Una rama es como una línea de tiempo alternativa de tu código. Puedes experimentar, cometer errores y fusionar solo lo que funciona, sin afectar nunca a main.",
     featureFlag: false,
@@ -31,13 +35,13 @@ const OPTIONS: Option[] = [
     featureFlag: true,
   },
   // Añade aquí la Opción 4 durante la clase:
-  // {
-  //   id: 4,
-  //   title: 'Opción 4',
-  //   description: 'Descripción corta',
-  //   message: 'Escribe aquí el mensaje de la Opción 4.',
-  //   featureFlag: false,
-  // },
+   {
+     id: 4,
+     title: 'Opción 4',
+     description: 'Descripción corta',
+     message: 'Escribe aquí el mensaje de la Opción 4.',
+     featureFlag: false,
+    },
 ];
 
 export default function App() {
