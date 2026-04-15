@@ -17,9 +17,9 @@ const OPTIONS: Option[] = [
   {
     id: 2,
     title: "Opción 2",
-    description: "Ramas de Git",
+    description: "Ramas y merges",
     message:
-      "Una rama es una línea de desarrollo independiente. Puedes crear, fusionar y eliminar ramas sin afectar a main.",
+      "Una rama es como una línea de tiempo alternativa de tu código. Puedes experimentar, cometer errores y fusionar solo lo que funciona, sin afectar nunca a main.",
     featureFlag: false,
   },
   {
@@ -39,11 +39,11 @@ const OPTIONS: Option[] = [
      featureFlag: false,
     },
   {
-    id: 6,
-    title: "Opción 6",
-    description: "gitignore",
-    message: "El fichero .gitignore le dice a Git qué ficheros debe ignorar. Úsalo para excluir ficheros de entorno (.env), dependencias (node_modules) y cualquier cosa que no deba estar en el repositorio.",
-    featureFlag: false,
+     id: 6,
+     title: "Opción 6",
+     description: "gitignore",
+     message: "El fichero .gitignore le dice a Git qué ficheros debe ignorar. Úsalo para excluir ficheros de entorno (.env), dependencias (node_modules) y cualquier cosa que no deba estar en el repositorio.",
+     featureFlag: false,
   },
 ];
 
