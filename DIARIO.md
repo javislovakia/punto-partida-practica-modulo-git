@@ -14,4 +14,9 @@ También se pueden hacer cambios en la otra dirección, se puede proponer que lo
 Para añadir nuevas funcionalidades es mejor trabajar con la rama de **dev** para así mantener la rama principal **main** limpia y estable. Haciéndolo así, si hiciera falta aplicar un hotfix a main para arreglar algún problema en la aplicación, no arrastramos cambios que no están completados o que no están totalmente testeados.
 
 *Captura 3: Opción 5 añadida*
-![Captura 3: Opción 5 añadida]
+![Captura 3: Opción 5 añadida](capturas/c3-opcion5.png)
+
+## Tarea 3 - Feature branch B: añadir la Opción 6 (aquí está el conflicto)
+Un **conflicto en Git** sucede cuando se intentan aplicar varios cambios a una misma parte del código, y Git no sabe cuál de los cambios aplicar.
+
+En nuestro caso los cambios de *feature/opcion-5* y *feature/opcion-6* incluyen una modificación de la descripción de la opción 3. Ambos parten de DEV, y lo modifican. Git no sabe qué cambio es el que preferimos.
